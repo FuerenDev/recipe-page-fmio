@@ -1,0 +1,102 @@
+@media screen and (max-width: 750px) {
+    @font-face {
+        font-family: 'Outfit';
+        src: url('./assets/fonts/outfit/static/Outfit-Regular.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
+    @font-face {
+        font-family: 'Young Serif';
+        src: url('./assets/fonts/young-serif/YoungSerif-Regular.ttf') format('truetype');
+        font-weight: 400;
+        font-style: normal;
+    }
+    #container {
+        font-family: "Outfit";
+        color: hsl(30, 10%, 34%);
+        width: 100%;
+        margin: 0px;
+        border-radius: 0px;
+        background-color: hsl(0, 0%, 100%);
+    }
+    h1 {
+        font-family: "Young Serif";
+        color: hsl(24, 5%, 18%);
+        font-size: 40px;
+        padding-left: 35px;
+    }
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    h2 {
+        color: hsl(14, 45%, 36%);
+        font-family: "Young Serif";
+        padding: 0px 35px;
+        font-size: 25px;
+    }
+    p {
+        font-size: 16px;
+        padding: 0px 35px;
+    }
+    .boldText {
+        font-weight: bold;
+    }
+    img {
+        width: 100%;
+        border-radius: 0px;
+        margin: 0px;
+    }
+    #normal {
+        font-family: "Outfit";
+        font-size: 20px;
+        color: hsl(332, 51%, 32%);
+        margin-left: 0px;
+        padding: 0px 20px;
+    }
+    #prepBox{
+        background-color: hsl(330, 100%, 98%);
+        border-radius: 15px;
+        padding: 10px;
+        margin: 50px 35px;
+    }
+    ul li::marker,
+    ol li::marker {
+        font-family: 'Outfit', sans-serif;
+        font-weight: 700;
+        color: hsl(14, 45%, 36%);
+    }
+    ul li,
+    ol li {
+        padding: 0px 20px;
+        padding-bottom: 15px;
+        margin-left: 25px;
+    }
+    #prepBox ul li::marker,
+    #prepBox ol li::marker{
+        color: hsl(332, 51%, 32%);
+    }
+    #prepBox ul li,
+    #prepBox ol li{
+        margin-left: 5px;
+    }
+    hr{
+        background-color: hsl(30, 18%, 87%);
+        border: none;
+        height: 1px;
+        margin: 0px 35px;
+    }
+    #table{
+        padding-bottom: 35px;
+    }
+    #table p{
+        display:inline-flex;
+    }
+    #table .tableMainText{
+        width: 100px;
+        padding-left: 70px;
+    }
+    #table .boldText{
+        color: hsl(14, 45%, 36%);
+    }
+}
