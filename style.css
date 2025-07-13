@@ -72,7 +72,7 @@ ol li::marker {
 ul li,
 ol li {
     padding-bottom: 15px;
-    padding-left: 200px;
+    padding-left: 20px;
     margin-left: 25px;
 }
 #prepBox ul li::marker,
