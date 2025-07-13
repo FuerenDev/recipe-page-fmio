@@ -74,6 +74,7 @@ ol li {
     padding-bottom: 15px;
     padding-left: 20px;
     margin-left: 25px;
+    margin-right: 40px;
 }
 #prepBox ul li::marker,
 #prepBox ol li::marker{
